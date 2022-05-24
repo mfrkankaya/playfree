@@ -1,7 +1,6 @@
 import { getAllGames } from 'api'
 import GameList from 'components/GameList'
 import Header from 'components/Header'
-import WelcomeHero from 'components/WelcomeHero'
 import { GamesContextProvider } from 'contexts'
 import { GetStaticProps, NextPage } from 'next'
 import React from 'react'

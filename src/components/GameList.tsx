@@ -64,7 +64,7 @@ const GameList = () => {
   }, [data, searchText])
 
   return (
-    <Container className="pt-24">
+    <Container className="pt-24 !px-5">
       <input
         className="mb-8 w-full max-w-md py-3 px-5 rounded-xl outline-none border border-zinc-900 bg-zinc-900 text-zinc-300 placeholder:text-zinc-500 focus:border-zinc-700"
         placeholder="Search games"
